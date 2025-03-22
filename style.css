@@ -1,9 +1,374 @@
+
+.dosis-myFont {
+    font-family: "Dosis", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+
+  @keyframes slide-in-left {
+    0% {
+        transform: translateX(-200%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@keyframes slide-in-right {
+    0% {
+        transform: translateX(200%);
+    }
+    100% {
+        transform: translateX(0);
+    }}
+
 body {
     font-family: "Dosis", sans-serif;
     background-color: #2F5E58;
     margin: -1% 15% 0 15%;
 
 }
+.insights-gained{
+
+    background-color: white;
+    justify-content: center;
+    text-align: center;
+}
+
+.lessons-learned-heading{
+    font-size: 300%;
+    color: #2F5E58;
+}
+.containerArsema{
+    position: relative;
+    transform: translateX(3);
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+    transform: translateX(-200%);
+    animation-name: slide-in-right;
+    display: flex;
+    background-color: #d3a588;
+    width: 60%;
+    padding: 1.5%;
+    border-radius: 10px;
+    margin-left: 15%;
+    color: aliceblue;
+
+    img{
+        width: 100px;
+
+        border-radius: 30%;
+    }
+    h5{
+        margin-left: 2%;
+
+        margin-top: 8%;
+        font-size: large;
+  
+    }
+    p{
+    
+        padding-top: 6%;
+        font-size: large;
+
+    }
+
+}
+.containerMeron{
+    position: relative;
+    transform: translateX(3);
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+    transform: translateX(-200%);
+    animation-name: slide-in-left;
+    margin-top: 5%;
+    display: flex;
+    background-color: #b18c73;
+    
+    width: 60%;
+    margin-left: 21%;
+    padding: 1.5%;
+    border-radius: 10px;
+    color: aliceblue;
+
+    img{
+        width: 100px;
+
+        border-radius: 30%;
+    }
+    h5{
+        margin-left: 2%;
+        margin-top: 8%;
+        font-size: large;
+  
+    }
+    p{
+    
+        padding-top: 6%;
+        font-size: large;
+
+    }
+}
+.containerSaphia{
+    position: relative;
+    transform: translateX(3);
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+    transform: translateX(-200%);
+    animation-name: slide-in-right;
+    display: flex;
+    margin-top: 5%;
+    display: flex;
+    background-color: #9da3a4
+    ;
+    width: 60%;
+    padding: 1.5%;
+    border-radius: 10px;
+    color: aliceblue;
+    margin-left: 15%;
+    img{
+        width: 100px;
+
+        border-radius: 30%;
+    }
+    h5{
+        margin-left: 2%;
+
+        margin-top: 8%;
+        font-size: large;
+  
+    }
+    p{
+    
+        padding-top: 6%;
+        font-size: large;
+
+    }
+
+}
+.containerBirhanu{
+    position: relative;
+    transform: translateX(3);
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+    transform: translateX(-200%);
+    animation-name: slide-in-left;
+    margin-top: 5%;
+    display: flex;
+    margin-top: 5%;
+    background-color: #faae7b;
+    width: 60%;
+    margin-left: 21%;
+    padding: 1.5%;
+    border-radius: 10px;
+    color: aliceblue;
+
+    img{
+        width: 100px;
+        border-radius: 30%;
+    }
+    h5{
+        margin-left: 2%;
+
+        margin-top: 8%;
+        font-size: large;
+  
+    }
+    p{
+    
+        padding-top: 6%;
+        font-size: large;
+
+    }
+
+}
+.containerRigbe{
+    position: relative;
+    transform: translateX(3);
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+    transform: translateX(-200%);
+    animation-name: slide-in-right;
+    display: flex;
+    margin-top: 5%;
+    display: flex;
+    background-color: #ccb7ae;
+    width: 60%;
+    margin-left: 15%;
+    padding: 1.5%;
+    border-radius: 10px;
+    color: aliceblue;
+    img{
+        width: 100px;
+        border-radius: 30%;
+    }
+    h5{
+        margin-left: 2%;
+
+        margin-top: 8%;
+        font-size: large;
+  
+    }
+    p{
+    
+        padding-top: 6%;
+        font-size: large;
+
+    }
+
+}
+.containerMahado{
+    position: relative;
+    transform: translateX(3);
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+    transform: translateX(-200%);
+    animation-name: slide-in-left;
+    margin-top: 5%;
+    display: flex;
+    margin-top: 5%;
+    background-color: #d3ab9e;
+    width: 60%;
+    margin-left: 21%;
+    padding: 1.5%;
+    border-radius: 10px;
+    color: aliceblue;
+
+    img{
+        width: 100px;
+        border-radius: 30%;
+    }
+    h5{
+        margin-left: 2%;
+
+        margin-top: 8%;
+        font-size: large;
+  
+    }
+    p{
+    
+        padding-top: 6%;
+        font-size: large;
+
+    }
+
+}
+.containerZahara{
+    position: relative;
+    transform: translateX(3);
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+    transform: translateX(-200%);
+    animation-name: slide-in-right;
+    display: flex;
+    margin-top: 5%;
+    display: flex;
+    background-color: #9da3a4
+    ;
+    width: 60%;
+    margin-left: 15%;
+    padding: 1.5%;
+    border-radius: 10px;
+    color: aliceblue;
+    img{
+        width: 100px;
+        border-radius: 30%;
+    }
+    h5{
+        margin-left: 2%;
+
+        margin-top: 8%;
+        font-size: large;
+  
+    }
+    p{
+    
+        padding-top: 6%;
+        font-size: large;
+
+    }
+
+}
+.containerMeronh{
+    position: relative;
+    transform: translateX(3);
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+    transform: translateX(-200%);
+    animation-name: slide-in-left;
+    margin-top: 5%;
+    display: flex;
+    margin-top: 5%;
+    background-color: #ccc9a1;
+    width: 60%;
+    margin-left: 21%;
+    padding: 1.5%;
+    border-radius: 10px;
+    color: aliceblue;
+
+    img{
+        width: 100px;
+        border-radius: 30%;
+    }
+    h5{
+        margin-left: 2%;
+
+        margin-top: 8%;
+        font-size: large;
+  
+    }
+    p{
+    
+        padding-top: 6%;
+        font-size: large;
+
+    }
+
+}
+.containerAmir{
+    position: relative;
+    transform: translateX(3);
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+    transform: translateX(-200%);
+    animation-name: slide-in-right;
+    display: flex;
+    margin-top: 5%;
+    display: flex;
+    background-color: #7a6563;
+    width: 60%;
+    padding: 1.5%;
+    border-radius: 10px;
+    color: aliceblue;
+    margin-left: 15%;
+    img{
+        width: 100px;
+        border-radius: 30%;
+    }
+    h5{
+        margin-left: 2%;
+
+        margin-top: 8%;
+        font-size: large;
+  
+    }
+    p{
+    
+        padding-top: 6%;
+        font-size: large;
+
+    }
+}
+
 
 .homepage {
     background-color: white;
