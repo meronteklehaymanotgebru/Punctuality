@@ -32,7 +32,7 @@ button {
 button:hover{
     background-color: #B18C73;
 } 
-.container{
+.some-about-punctuality{
     background-color: whitesmoke;
     border-radius: 10Px;
     box-shadow: 0 4px 8px  #FAAE7B;
@@ -42,7 +42,7 @@ button:hover{
     text-align: center;
     font-size: x-large;
 }
-.container:hover{
+.some-about-punctuality:hover{
     background-color:#CCB7AE;
 }
  img{

@@ -4,20 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Punctuality</title>
-    <link rel="stylesheet" href="style.css">
-   
+    <link rel="stylesheet" href="style.css"> 
 </head>
-<body>
-
-
-<div class="container">
+<div class="punctuality-meaning">  
+<div class="some-about-punctuality">
     <img src="clock3-Photoroom.png">
-    <h3>what is  Punctuality?</h3>
+    <h3>What is  Punctuality?</h3>
    
     <div class="points">
         
         <ul>
-           
             <li><strong>Strong will & determination:</strong> Completing tasks on time.</li>
             <li><strong>Positive first impression:</strong> Arriving on time builds trust.</li>
             <li><strong>Right action, right time:</strong> Timeliness beyond just arrival.</li>
@@ -32,7 +28,16 @@
    </div>
    <button id="showdefinition">Show More</button>  
 </div>
-    
-<script src="index.js"></script>
-</body>
+<script>('showdefinition').addEventListener('click', function() {
+    var definition = document.getElementById('definition');
+    if (definition.style.display ==='none') {
+        definition.style.display ='block';
+        this.textContent = 'Hide Definition';
+    } else {
+        definition.style.display = 'none';
+        this.textContent = 'Show more';
+    }
+});
+</script>
+</div>
 </html>
