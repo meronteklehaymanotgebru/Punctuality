@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
+
 <head>
   
     <meta charset="UTF-8">
@@ -36,6 +37,28 @@
             </div>
         </main>
   </div>
+      <div class="needPunctuality">
+        <div class="circle-container">
+            <div class="small-circle">A stepping stone towards descipline</div>
+            <div class="small-circle">To showcase professionalism and cultivate effective leadership</div>
+            <div class="small-circle">Improve work relationships and teamwork</div>
+            <div class="small-circle">A way for being organized in every situatioons</div>
+            <div class="small-circle">Reduce stress</div>
+            <div class="small-circle">create positive image on society</div>
+            <div class="small-circle">Save someone's life</div>
+            <div class="center-circle">Why Do We Need Punctuality?</div>
+        </div>
+        <script>
+            const circles = document.querySelectorAll('.small-circle');
+            const radius = 350;
+            circles.forEach((circle, index) => {
+                const angle = (index / 7) * 2 * Math.PI;
+                const x = radius * Math.cos(angle);
+                const y = radius * Math.sin(angle);
+                circle.style.transform = `translate(${x}px, ${y}px)`;
+            });
+        </script>
+    </div>
     <div class="insights-gained">
         <div class="lessons-learned-heading">
             <h2>Insights Gained</h2>
@@ -110,5 +133,6 @@
 
  
 </body>
+
 
 </html>
